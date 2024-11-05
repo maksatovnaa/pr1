@@ -1,0 +1,38 @@
+body{
+    min-height: 100vh;
+    background-color: #0a2421;
+}
+header{
+    display: grid;
+    grid-template-columns:  200px 200px 200px 200px;
+   
+}
+header a{
+    text-decoration: none;
+    color: #F1DDA0;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 475px;    
+}
+.text{
+    color: beige;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 150px;
+} 
+.main img{
+   margin-left: 500px;
+   transition: transform 0.3s ease;
+}
+.main img:hover{
+    transform: translateY(-5px);
+}
+.main details{
+    margin-top: 10px;
+    margin-left: 600px;
+    color: beige;
+}
+details summary a{
+    text-decoration: none;
+    color: beige;
+}
